@@ -8,4 +8,4 @@ COPY . /app
 WORKDIR /app
 RUN uv sync --frozen --no-cache
 
-CMD ["uv", "run", "vllm", "serve", "Qwen/Qwen2.5-1.5B-Instruct"]
+CMD ["uv", "run", "vllm", "serve", "Qwen/Qwen2.5-3B-Instruct"]
